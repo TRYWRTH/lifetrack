@@ -1,0 +1,11 @@
+{
+  "name": "steady",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A calm, private, local-first tracker for deadlines, payments, contracts and budget.",
+  "scripts": {
+    "test": "node --test tests/logic.test.mjs",
+    "dev": "python3 -m http.server 8123"
+  }
+}
